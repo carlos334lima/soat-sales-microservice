@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sales-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sales-service
+  template:
+    metadata:
+      labels:
+        app: sales-service
+    spec:
+      containers:
+        - name: sales-service
+          image: sales-service:latest
+          ports:
+            - containerPort: 3002
+          env:
+            - name: PORT
+              value: "3002"
+            - name: DATABASE_URL
+              value: "file:./dev.db"
+            - name: INVENTORY_BASE_URL
+              value: "http://inventory-service"
+
