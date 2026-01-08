@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1767877287299" clover="3.2.0">
-  <project timestamp="1767877287299" name="All files">
-    <metrics statements="55" coveredstatements="45" conditionals="10" coveredconditionals="5" methods="5" coveredmethods="3" elements="70" coveredelements="53" complexity="0" loc="55" ncloc="55" packages="2" files="2" classes="2"/>
+<coverage generated="1767883258246" clover="3.2.0">
+  <project timestamp="1767883258246" name="All files">
+    <metrics statements="65" coveredstatements="64" conditionals="13" coveredconditionals="13" methods="6" coveredmethods="5" elements="84" coveredelements="82" complexity="0" loc="65" ncloc="65" packages="3" files="3" classes="3"/>
     <package name="src">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="server.ts" path="/Users/carlos.lima/work/fiap/soat-fase4-sales-microservice/src/server.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="server.ts" path="/Users/carlos.lima/work/fiap/soat-sales-microservice/src/server.ts">
+        <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.docs">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="openapi.ts" path="/Users/carlos.lima/work/fiap/soat-sales-microservice/src/docs/openapi.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.sales">
-      <metrics statements="49" coveredstatements="39" conditionals="10" coveredconditionals="5" methods="5" coveredmethods="3"/>
-      <file name="sales.router.ts" path="/Users/carlos.lima/work/fiap/soat-fase4-sales-microservice/src/sales/sales.router.ts">
-        <metrics statements="49" coveredstatements="39" conditionals="10" coveredconditionals="5" methods="5" coveredmethods="3"/>
+      <metrics statements="53" coveredstatements="53" conditionals="13" coveredconditionals="13" methods="5" coveredmethods="5"/>
+      <file name="sales.router.ts" path="/Users/carlos.lima/work/fiap/soat-sales-microservice/src/sales/sales.router.ts">
+        <metrics statements="53" coveredstatements="53" conditionals="13" coveredconditionals="13" methods="5" coveredmethods="5"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -27,46 +39,50 @@
         <line num="8" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="cond" truecount="0" falsecount="1"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="27" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="3" falsecount="0"/>
         <line num="31" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="47" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
         <line num="58" count="1" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
         <line num="63" count="1" type="stmt"/>
-        <line num="64" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="67" count="1" type="stmt"/>
-        <line num="68" count="1" type="stmt"/>
-        <line num="69" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="72" count="1" type="stmt"/>
-        <line num="76" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="77" count="1" type="stmt"/>
-        <line num="78" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="79" count="1" type="stmt"/>
-        <line num="84" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="72" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="77" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="84" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="86" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="87" count="1" type="stmt"/>
-        <line num="88" count="1" type="stmt"/>
-        <line num="92" count="1" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
       </file>
     </package>
   </project>

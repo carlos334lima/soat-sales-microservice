@@ -27,6 +27,7 @@
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.30",
     "@types/supertest": "^2.0.16",
+    "@types/swagger-ui-express": "^4.1.8",
     "eslint": "^8.57.0",
     "eslint-config-standard-with-typescript": "^43.0.0",
     "eslint-plugin-import": "^2.29.1",
